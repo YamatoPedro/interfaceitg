@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+article {
+  width: 470px;
+  position: relative;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.borda-degrade {
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976);
+  height: 38px;
+  width: 38px;
+  padding: 3px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.encapsula-nome {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: -260px;
+}
+.fotoUsuario {
+  height: 35px;
+  width: 35px;
+  padding: 2px;
+  border-radius: 50px;
+  background-color: white;
+  display: block;
+}
+.nomeUsuario {
+  font-size: 14px;
+  font-weight: 600;
+  color: #262626;
+}
+.ponto {
+  font-size: 2px;
+  color: rgb(90, 89, 89);
+  margin-top: 8px;
+}
+
+.data {
+  color: rgb(90, 89, 89);
+  letter-spacing: -1px;
+  margin-top: 4px;
+  font-size: 13px;
+}
+.organiza-pontos i {
+  font-size: 3px;
+  color: #262626;
+  cursor: pointer;
+}
+.organiza-pontos {
+  display: flex;
+  gap: 4px;
+}
+
+#foto-post {
+  width: 470px;
+  height: 470px;
+  background-image: url(/fotos/memphis-feed.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.interacoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#curte-comenta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.interacao {
+  height: 28px;
+  width: 28px;
+  stroke-width: 2;
+}
+
+.interacoes i {
+  font-size: 24px;
+}
+
+#comentar {
+  transform: scaleX(-1);
+}
+
+#coracao {
+  height: 30px;
+  width: 30px;
+}
+
+.preenchimento-salvar {
+  fill: black;
+}
+.curtidas {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.curtidas p {
+  font-size: 13px;
+}
+.curtidas i {
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.legenda {
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+.legenda p {
+  font-size: 13px;
+}
+
+#numero-curtidas {
+  font-size: 13px;
+}
+#conteiner-comentarios {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 10px;
+  position: absolute;
+  top: 610px;
+}
+#digita-comentario {
+  width: 470px;
+  height: 80px;
+  resize: none;
+  border: solid 1px rgba(128, 128, 128, 0.278);
+  border-radius: 5px;
+  padding: 12px;
+  line-height: 1.4;
+}
+#botao-publicar {
+  margin-top: 3px;
+  margin-right: 3px;
+  color: rgb(76, 182, 218);
+  border: solid 1px rgba(128, 128, 128, 0.278);
+  padding: 3px;
+}
+#area-comentarios {
+  margin-top: 10px;
+}
+
+.divPai {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
